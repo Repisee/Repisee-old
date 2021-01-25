@@ -10,3 +10,17 @@ python3 manage.py runserver
 
 Pillow is a Python Imaging Library (PIL), which adds support for opening, manipulating, and saving images. post.Post.image: (fields.E210) Cannot use ImageField because Pillow is not installed.
 	HINT: Get Pillow at https://pypi.org/project/Pillow/ or run command "python -m pip install Pillow".
+
+
+
+python3 -m venv env
+source env/bin/activate
+
+https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment
+
+pip install django==3.1
+
+django-admin startproject repis
+ee .
+
+python manage.py runserver
